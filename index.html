@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="favicon/android-chrome-512x512.png" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+    <title>Projeto Netflix</title>
+</head>
+<body>
+<div class="fundo">
+    <div class="nav" id="nav">
+        <a class="navlogo" href="novo.html"> <img class="navlogo" src="imagens/netflix.logo.png " alt=""></a>
+    
+        <a href="https://www.netflix.com/br/login" target="_blank"><img  src="imagens/Netflix-avatar.png" class="navavatar" alt=""></a> 
+    </div>
+
+    <div class="fundo2">
+       <div>
+        <h1>La casa de papel</h1>
+            <button>Assistir</button>
+            <button>Minha lista</button>
+            
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat officiis delectus praesentium rerum consectetur, et harum ex aliquam atque reprehenderit quos hic similique rem nam accusamus modi architecto! Cum, perspiciatis.</p>
+        </div>
+    </div> 
+
+</div>
+
+<div class="rowposter">
+    <h2>Em alta</h2>
+
+    <div class="rowposters">
+        <img src="imagens/filme1.jpg" alt="">
+        <img src="imagens/filme1.jpg" alt="">
+        <img src="imagens/filme1.jpg" alt="">
+        <img src="imagens/filme1.jpg" alt="">
+        <img src="imagens/filme1.jpg" alt="">
+        <img src="imagens/filme1.jpg" alt="">
+    </div>
+    <h2>Minha lista</h2>
+
+        <div class="rowposters">
+            <img src="imagens/filme1.jpg" alt="">
+            <img src="imagens/filme1.jpg" alt="">
+            <img src="imagens/filme1.jpg" alt="">
+            <img src="imagens/filme1.jpg" alt="">
+            <img src="imagens/filme1.jpg" alt="">
+            <img src="imagens/filme1.jpg" alt="">
+        </div>
+    <h2>Filmes de ação</h2>
+
+        <div class="rowposters">
+            <img src="imagens/filme1.jpg" alt="">
+            <img src="imagens/filme1.jpg" alt="">
+            <img src="imagens/filme1.jpg" alt="">
+            <img src="imagens/filme1.jpg" alt="">
+            <img src="imagens/filme1.jpg" alt="">
+            <img src="imagens/filme1.jpg" alt="">
+       </div>
+    <h2>Minha lista</h2>
+
+        <div class="rowposters">
+            <img src="imagens/filme1.jpg" alt="">
+            <img src="imagens/filme1.jpg" alt="">
+            <img src="imagens/filme1.jpg" alt="">
+            <img src="imagens/filme1.jpg" alt="">
+            <img src="imagens/filme1.jpg" alt="">
+            <img src="imagens/filme1.jpg" alt="">
+        </div>
+</div>  
+<script>
+    const nav = document.getElementById('nav');
+    window.addEventListener('scroll', ()=>{
+        if(window.scrollY >= 100){
+            nav.classList.add('navblack');
+        } else {
+            nav.classList.remove('navblack');
+        }
+    })
+</script>
+    
+</body>
+</html>
