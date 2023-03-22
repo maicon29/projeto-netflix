@@ -1,6 +1,13 @@
 *{
     margin: 0px;
     box-sizing: border-box;
+    
+}
+h2{
+    margin: 10px;
+    font-weight: bold;
+   
+    
 }
 .fundo{
     background-image: url('imagens/03083025501005.webp');
@@ -16,13 +23,13 @@
     width: 100%;
     display: flex;
     justify-content: space-between;
-    padding: 20px;
+    padding: 10px;
     z-index: 1;
     transition-timing-function: ease-in;
     transition: all 0.7s;
 }
 .navlogo{
-    width: 90px;
+    height: 50px;
     object-fit: contain;
 }
 .navlogo:hover{
@@ -49,15 +56,15 @@
     padding-left: 10px;
     padding-right: 15px;
     padding-top: 5px;
-    padding-bottom: 5px; 
+    padding-bottom: 5px;
+    height: 30px; 
 }
 .fundo2 button:hover{
     background-color: #312f2f7e;
 }
 .fundo2 p {
-    font-size: 15px;
+    font-size: 20px;
 }
-
 .rowposters {
     display: flex;
     overflow-y: hidden;
@@ -68,11 +75,10 @@
     width: 100%;
     object-fit: contain;
     max-height: 100px;
-    
  }
-
 .rowposter img:hover {
     transform:scale(1.5);
+
 }
 .rowposters::-webkit-scrollbar {
     display: none;
